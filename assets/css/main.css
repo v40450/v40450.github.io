@@ -2,12 +2,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 
-/*
-	Hielo by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
-
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -2424,7 +2418,7 @@
 				}
 
 				ul.icons li .icon:before {
-					font-size: 2rem;
+					font-size: 7rem;
 				}
 
 		ul.actions {
@@ -2890,7 +2884,7 @@
 
 		.wrapper.style2 {
 			background-color: #f2f2f2;
-			color: #a6a6a6;
+			color: #444;
 		}
 
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
@@ -3331,8 +3325,8 @@
 			}
 
 			.wrapper.style3 p {
-				text-transform: uppercase;
-				font-size: .75rem;
+				text-transform: none;
+				font-size: 1.4rem;
 				font-weight: 300;
 				margin: 0 0 .5rem 0;
 				padding: 0 0 1rem 0;
@@ -4159,10 +4153,14 @@
 				}
 
 			.banner > article h2 {
-				font-size: 7rem;
+				font-size: 6rem;
 				margin-bottom: 0;
 				color: #FFF;
 				font-weight: 300;
+			}
+
+			.banner > article h3 {
+				font-size: 4.4rem;
 			}
 
 				.banner > article h2:after {
@@ -4171,7 +4169,7 @@
 
 			.banner > article p {
 				color: rgba(255, 255, 255, 0.65);
-				text-transform: uppercase;
+				text-transform: none;
 				font-size: 1rem;
 				font-weight: 300;
 				margin: 0;
@@ -4257,6 +4255,10 @@
 
 			.banner > article h2 {
 				font-size: 4em;
+			}
+
+			.banner > article h3 {
+				font-size: 2.8em;
 			}
 
 		}
